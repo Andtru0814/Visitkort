@@ -1,0 +1,25 @@
+.front{
+    display:flex; 
+    width: 60vh;
+    height: 33vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid lightgreen;
+    background-color: rgb(233, 250, 255);
+    margin: 50px;
+}
+
+.back {
+    display:flex;
+    width: 60vh;
+    height: 33vh;
+    border: 10px solid lightgreen;
+    margin:50px;
+    flex-direction: column;
+    background-color: rgb(233, 250, 255);
+    flex-wrap: wrap;
+}
+.item {
+    margin: 5px;
+}
